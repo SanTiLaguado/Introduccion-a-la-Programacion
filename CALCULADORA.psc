@@ -1,7 +1,7 @@
 Algoritmo sin_titulo
 	definir num1 Como Entero;definir num2 Como Entero
 	Escribir "Ingrese el primer numero";Leer num1
-	Escribir "Ingrese la operacion que necesita (+, -, *, /)";Leer Operador
+	Escribir "Ingrese la operacion que necesita (+,Â -,Â *,Â /)";Leer Operador
 	Escribir "Ingrese el segundo numero";Leer num2
 	Segun Operador Hacer
 		"+":
@@ -18,6 +18,7 @@ Algoritmo sin_titulo
 			Escribir num1 " / " num2 " = " resultado
 		De Otro Modo:
 			Escribir "EL OPERADOR INGRESADO NO ES VALIDO"
+                        Escribir "HOLA"
 	Fin Segun
 	
 FinAlgoritmo
